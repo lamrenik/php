@@ -1,0 +1,17 @@
+{
+    "name": "pavel/lab4",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pavel\\Lab4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Balyaev"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

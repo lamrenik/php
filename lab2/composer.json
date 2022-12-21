@@ -1,0 +1,21 @@
+{
+    "name": "pavel/lw2",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pavel\\Lw2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Belyaev"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lamrenik/php/lab2"
+        }
+    ],
+    "require": {}
+}
