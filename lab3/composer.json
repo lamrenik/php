@@ -12,7 +12,14 @@
             "name": "Pavel Belyaev"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/lamrenik/lw2",
+    
+            "type": "vcs"
+        }
+    ],
     "require": {
-        "pavel/lw2": "dev-master"
+        "pavel/lw2": "dev-main"
     }
 }

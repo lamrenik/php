@@ -4,12 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bf80478feb1f234fd4c30cd2d4de534",
-    "packages": [],
+    "content-hash": "d7fa3cfb256f78902bc609523624c8b5",
+    "packages": [
+        {
+            "name": "pavel/lw2",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lamrenik/lw2.git",
+                "reference": "3c9e4af96b8343a203b04b329509c0b28cd2543f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lamrenik/lw2/zipball/3c9e4af96b8343a203b04b329509c0b28cd2543f",
+                "reference": "3c9e4af96b8343a203b04b329509c0b28cd2543f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pavel\\Lw2\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Pavel Belyaev"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/lamrenik/lw2/tree/main",
+                "issues": "https://github.com/lamrenik/lw2/issues"
+            },
+            "time": "2022-12-21T13:53:03+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pavel/lw2": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
